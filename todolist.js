@@ -4,7 +4,7 @@ function newTask() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("Input a Task");
+    alert("Input a Task to Proceed");
   } else {
     document.getElementById("myUl").appendChild(li);
   }
