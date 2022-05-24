@@ -101,4 +101,10 @@ ul{
 li{
     color: #90ADF2;
     padding: 10px;
+    font-style: bolder;
+}
+
+ul li:hover{
+    background:#90ADF2;
+    color: #161616;
 }
